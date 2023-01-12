@@ -6,7 +6,7 @@ function Navbar() {
       <div className="navbar">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <button
+            {/* <button
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -16,7 +16,7 @@ function Navbar() {
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 

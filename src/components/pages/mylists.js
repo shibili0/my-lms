@@ -5,7 +5,7 @@ import Imagecard2 from '../imagecard2';
 import Heading from "../heading"
 import Topnav from '../topnav';
 function Mylists() {
-    const card2Values = [
+    const card2Values = [  
         {
           card2color: "#B7305E",
           card2Title: "Fundementals of Java",

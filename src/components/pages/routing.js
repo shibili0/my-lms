@@ -5,12 +5,14 @@ import Courses from './courses';
 import Loginpage from './loginpage';
 import Library from './library';
 import Mylists from './mylists';
+import RegisterPage from './registerPage';
 function Routing() {
   return (
     <div>
          <BrowserRouter>
         <Routes>
           <Route path="/" element={<Loginpage />}></Route>
+          <Route path="/registerPage" element={<RegisterPage />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
           <Route path="/courses" element={<Courses />}></Route>
           <Route path="/library" element={<Library />}></Route>
